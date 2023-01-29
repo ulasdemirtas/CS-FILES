@@ -1,0 +1,33 @@
+/**************************************************************
+*  Assignment    : 2                                          *
+*  Name          : Ulas Demirtas                              *
+*  Student ID    : 02326630                                   *
+*  Date          : 25 October 2022                            *
+*  Calculate & Print out a calander  - Working Application    *
+**************************************************************/
+
+#include <iostream>
+#include <iomanip>
+#include <string>
+
+using namespace std;
+
+int main(){
+int year;
+bool is_leap;
+
+cout <<"Please enter a year :";
+cin>>year;
+
+
+if (year % 400 == 0 ||(year % 4 == 0 && year % 100 != 0)){  /// Statement P or ( q and r)is True;if the year mod 4 is zero or if mod 100 is not zero and mod 400 is zero
+
+
+        cout << " leap year" ; }    ///Test Cases  for  Leap years 1980,1988, 1992, and 1996
+        else {
+        cout << " NOT leap year" ;   ///Test Cases  for NOT Leap years 1700, 1800, 1900, 2100, 2200, 2300, 2500, 2600
+         }
+return 0;
+}
+
+

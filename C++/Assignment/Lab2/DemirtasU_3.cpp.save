@@ -1,0 +1,42 @@
+/**************************************************************
+*  Assignment    : LAB 2                                      *
+*  Name          : Ulas Demirtas                              *
+*  Student ID    : 02326630                                   *
+*  Date          : 07 October 2022                            *
+*  Detects Consecutive duplicate numbers                      *
+**************************************************************/
+
+#include <iostream>
+
+
+using namespace std;
+
+int main(){
+
+    int input,number_init;
+ cout <<"Please enter a number :";
+
+     cin >>number_init;
+
+
+
+    do{
+    cout <<"Please enter a number :";
+
+     cin >>input;
+     if (input!=number_init)
+        number_init=input;
+
+   
+
+
+    }
+
+
+    while(input!=number_init);
+
+    cout << "Dublication error:consequtive numbers";
+
+
+    }
+
